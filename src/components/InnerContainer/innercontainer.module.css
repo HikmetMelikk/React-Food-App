@@ -1,6 +1,6 @@
 .innerContainer {
     flex: 1;
-    padding: 2vh 2vw; /* Ekran boyutuna göre padding ayarla */
-    margin: 2vh 2vw; /* Ekran boyutuna göre margin ayarla */
-    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+    padding: 2vh 2vw; /* Adjust padding according to screen size */
+    margin: 2vh 2vw; /* Adjust margin according to screen size */
+    box-sizing: border-box; /* Include padding and border in the width */
 }

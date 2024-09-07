@@ -1,9 +1,9 @@
 .itemContainer {
-    width: 90%; /* Genişliği ekranın %90'ı olarak ayarla */
-    max-width: 300px; /* Maksimum genişliği 300px olarak sınırla */
-    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
-    box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.1); /* Gölge boyutunu ekran yüksekliğine göre ayarla */
-    margin: 2vh auto; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla, merkezle */
+    width: 90%; /* Set the width to 90% of the screen */
+    max-width: 300px; /* Limit the maximum width to 300px */
+    border-radius: 1vw; /* Adjust the corner rounding ratio according to the screen width */
+    box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.1); /* Adjust the shadow size according to the screen height */
+    margin: 2vh auto; /* Adjust the top and bottom margin according to the screen height, center */
     overflow: hidden;
     font-family: Polysans, sans-serif;
 }
@@ -19,7 +19,7 @@
 }
 
 .itemName {
-    font-size: 2vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    font-size: 2vw; /* Adjust the font size according to the screen width */
     font-weight: 600;
     color: #393e46;
 }
@@ -28,17 +28,17 @@
     background-color: aqua;
     border: none;
     color: white;
-    padding: 2vh 4vw; /* Padding'i ekran boyutuna göre ayarla */
-    font-size: 1.5vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    padding: 2vh 4vw; /* Adjust the padding according to the screen size */
+    font-size: 1.5vw; /* Adjust the font size according to the screen width */
     font-weight: 600;
     cursor: pointer;
-    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    border-radius: 1vw; /* Adjust the corner rounding ratio according to the screen width */
 }
 
 .buttonContainer {
-    margin: 2vh auto; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla, merkezle */
+    margin: 2vh auto; /* Adjust the top and bottom margin according to the screen height, center */
     display: flex;
     justify-content: space-around;
     text-align: center;
-    flex-wrap: wrap; /* İçerikleri taşarsa yeni satıra taşı */
+    flex-wrap: wrap; /* Move to a new line if contents overflow */
 }

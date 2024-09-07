@@ -1,39 +1,29 @@
-.itemContainer {
-    display: flex;
-    flex-wrap: wrap; /* İçerikleri satır içine sığmazsa yeni satıra taşı */
-    padding: 2vh 2vw; /* Ekran boyutuna göre padding ayarla */
-    margin-top: 5vh; /* Ekran boyutuna göre üst boşluk */
-    box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.1); /* Gölge boyutunu ekran yüksekliğine göre ayarla */
-    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
-    align-items: center; /* İçerikleri dikeyde ortala */
-}
-
 .imageContainer {
-    width: 10vw; /* Genişlik ekran genişliğine göre ayarlandı */
-    height: 10vw; /* Yükseklik ekran genişliğine göre ayarlandı */
-    min-width: 60px; /* Minimum genişlik belirlendi */
-    min-height: 60px; /* Minimum yükseklik belirlendi */
-    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
-    overflow: hidden; /* İçerik taşarsa gizle */
+    width: 10vw; /* Width adjusted according to screen width */
+    height: 10vw; /* Height adjusted according to screen width */
+    min-width: 60px; /* Minimum width set */
+    min-height: 60px; /* Minimum height set */
+    border-radius: 1vw; /* Adjust corner rounding ratio according to screen width */
+    overflow: hidden; /* Hide content if it overflows */
 }
 
 .image {
     max-width: 100%;
     height: auto;
-    border-radius: 2vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    border-radius: 2vw; /* Adjust corner rounding ratio according to screen width */
 }
 
 .nameContainer {
-    margin-left: 4vw; /* Sol boşluğu ekran genişliğine göre ayarla */
-    flex: 1; /* Mevcut alanı doldur */
+    margin-left: 4vw; /* Adjust left margin according to screen width */
+    flex: 1; /* Fill available space */
 }
 
 .name {
-    font-size: 2.5vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    font-size: 2.5vw; /* Adjust font size according to screen width */
     font-weight: bold;
 }
 
 .amount {
     font-weight: bold;
-    margin-top: 2vh; /* Üst boşluğu ekran yüksekliğine göre ayarla */
+    margin-top: 2vh; /* Adjust top margin according to screen height */
 }
