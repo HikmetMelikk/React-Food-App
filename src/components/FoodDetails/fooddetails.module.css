@@ -1,0 +1,43 @@
+.recipeCard {
+    max-width: 90%; /* Genişliği ekranın %90'ı olarak ayarla */
+    margin: 2vh auto; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla, merkezle */
+    padding: 2vh 2vw; /* Padding'i ekran boyutuna göre ayarla */
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.2); /* Gölge boyutunu ekran yüksekliğine göre ayarla */
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    font-family: Polysans, sans-serif;
+    color: black;
+}
+
+.recipeName {
+    font-size: 2.5vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    margin-bottom: 1vh; /* Alt margin'i ekran yüksekliğine göre ayarla */
+}
+
+.recipeImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    margin-bottom: 1vh; /* Alt margin'i ekran yüksekliğine göre ayarla */
+}
+
+.recipeDetails {
+    margin-bottom: 2vh; /* Alt margin'i ekran yüksekliğine göre ayarla */
+    display: flex;
+    flex-wrap: wrap; /* İçerikleri taşarsa yeni satıra taşı */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipeInstructions {
+    padding: 1vh 2vw; /* Padding'i ekran boyutuna göre ayarla */
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    color: #adaab0;
+}
+
+.recipeInstruction ol {
+    margin-left: 0;
+}
+
+.recipeInstruction li {
+    margin: 1vh 0; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla */
+}

@@ -1,0 +1,44 @@
+.itemContainer {
+    width: 90%; /* Genişliği ekranın %90'ı olarak ayarla */
+    max-width: 300px; /* Maksimum genişliği 300px olarak sınırla */
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.1); /* Gölge boyutunu ekran yüksekliğine göre ayarla */
+    margin: 2vh auto; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla, merkezle */
+    overflow: hidden;
+    font-family: Polysans, sans-serif;
+}
+
+.itemImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.itemContent {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.itemName {
+    font-size: 2vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    font-weight: 600;
+    color: #393e46;
+}
+
+.itemButton {
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 2vh 4vw; /* Padding'i ekran boyutuna göre ayarla */
+    font-size: 1.5vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+}
+
+.buttonContainer {
+    margin: 2vh auto; /* Üst ve alt margin'i ekran yüksekliğine göre ayarla, merkezle */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap; /* İçerikleri taşarsa yeni satıra taşı */
+}

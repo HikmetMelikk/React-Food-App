@@ -1,0 +1,39 @@
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap; /* İçerikleri satır içine sığmazsa yeni satıra taşı */
+    padding: 2vh 2vw; /* Ekran boyutuna göre padding ayarla */
+    margin-top: 5vh; /* Ekran boyutuna göre üst boşluk */
+    box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.1); /* Gölge boyutunu ekran yüksekliğine göre ayarla */
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    align-items: center; /* İçerikleri dikeyde ortala */
+}
+
+.imageContainer {
+    width: 10vw; /* Genişlik ekran genişliğine göre ayarlandı */
+    height: 10vw; /* Yükseklik ekran genişliğine göre ayarlandı */
+    min-width: 60px; /* Minimum genişlik belirlendi */
+    min-height: 60px; /* Minimum yükseklik belirlendi */
+    border-radius: 1vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+    overflow: hidden; /* İçerik taşarsa gizle */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2vw; /* Köşe yuvarlama oranını ekran genişliğine göre ayarla */
+}
+
+.nameContainer {
+    margin-left: 4vw; /* Sol boşluğu ekran genişliğine göre ayarla */
+    flex: 1; /* Mevcut alanı doldur */
+}
+
+.name {
+    font-size: 2.5vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    font-weight: bold;
+}
+
+.amount {
+    font-weight: bold;
+    margin-top: 2vh; /* Üst boşluğu ekran yüksekliğine göre ayarla */
+}

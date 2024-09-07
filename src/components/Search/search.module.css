@@ -1,0 +1,16 @@
+.searchContainer {
+    margin: 5vh auto; /* Dikeyde %5 ekran yüksekliği kadar boşluk */
+    width: 80%; /* Kapsayıcı genişliği ekranın %80'i olacak şekilde ayarlandı */
+    max-width: 400px; /* Maksimum genişlik olarak 400px ayarlandı */
+    position: relative;
+}
+
+.search {
+    border: none;
+    border-bottom: 1px solid #e3e4dc;
+    padding: 2vh 3vw; /* Dikeyde %2, yatayda %3 ekran genişliği kadar boşluk */
+    width: 100%; /* Genişlik kapsayıcının %100'ü */
+    outline: none;
+    font-size: 2vw; /* Yazı boyutu ekran genişliğine göre ayarlandı */
+    color: #393e46;
+}
